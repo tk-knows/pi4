@@ -1,0 +1,1000 @@
+  154  cd hardware/RaspberryPi
+  155  git clone https://github.com/me-no-dev/RasPiArduino piduino
+  156  sudo apt-get install arduino
+  157  ll /etc/*rasbian*
+  158  ls -la /etc/*rasbian*
+  159  ls -la /etc/*ras*
+  160  ls -la /etc/*rele*
+  161  cat /etc/os-release 
+  162  sudo find / -name arduino.h -print
+  163  man avrdude
+  164  sudo apt-get --help
+  165  sudo apt-get purge --help
+  166  man apt-get
+  167  sudo apt-get purge arduino
+  168  cd ..
+  169  ll
+  170  alias ll
+  171  cd arduino-1.8.9/
+  172  ll
+  173  sudo ./install.sh 
+  174  ll /usr/local/bin/arduino 
+  175  rm  /usr/local/bin/arduino
+  176  sudo rm  /usr/local/bin/arduino
+  177  sudo apt-get install arduino
+  178  ll
+  179  sudo reboot now
+  180  ifconfig
+  181  cputemp 
+  182  ping cisco.com
+  183  ping eportal.cisco.com
+  184  history
+  185  i2cdetect 
+  186  i2cdetect -y 1
+  187  ifconfig
+  188  systemctl restart network
+  189  sudo systemctl restart network
+  190  vim /etc/networks
+  191  sudo vim /etc/networks
+  192  service networking status
+  193  service networking restart
+  194  ifconfig
+  195  sudo vim /etc/networks
+  196  sudo vim /etc/network/interfaces
+  197  sudo vim /etc/networks
+  198  sudo vim /etc/network/interfaces
+  199  sudo vim /etc/network/interfaces.d/eth0
+  200  sudo ifup eth0
+  201  ping 192.168.10.1
+  202  sudo vim /etc/apt/apt.conf.d/01proxy
+  203  sudo apt-get update
+  204  pwd
+  205  man chromium-browser -v7
+  206  vim /etc/profile.d/wifi-check.sh 
+  207  vim /etc/profile.d/sshpwd.sh 
+  208  vim /etc/profile.d/proxy.sh
+  209  sudo vim /etc/profile.d/proxy.sh
+  210  source ~/.bashrc
+  211  echo $http_proxy
+  212  chromium-browser --proxy-server=http://192.168.10.1
+  213  man chromium-browser -
+  214  chromium-browser --proxy-server=192.168.10.1:8888
+  215  vim /etc/profile.d/proxy.sh 
+  216  sudo vim /etc/profile.d/proxy.sh 
+  217  exit
+  218  alias
+  219  ll /etc/profile.d/
+  220  sudo reboot now
+  221  chrome-with-proxy &
+  222  alias 
+  223  vim ~/.bashrc
+  224  sudo reboot now
+  225  cd /usr/share/arduino/
+  226  ll
+  227  cd lib
+  228  ll
+  229  ll hardware
+  230  pwd
+  231  cd ..; ll hardw*
+  232  ll
+  233  ll libraries/
+  234  pwd
+  235  cd ..
+  236  cd arduino
+  237  ll
+  238  find . -name "arduino.*" -print
+  239  ll lib
+  240  chrome-with-proxy &
+  241  python --version
+  242  sudo apt-get install pigpio python-pigpio python3-pigpio
+  243  sudo apt-get install codelite
+  244  which gcc
+  245  gcc --version
+  246  ll /usr/bin/arduino/
+  247  ll /usr/share/arduino/libraries/
+  248  ll /usr/share/arduino/libraries/Wire
+  249  ll /usr/share/arduino/libraries
+  250  cd /usr/share/arduino/libraries
+  251  ll
+  252  ll GSM
+  253  find . -name arduino.* -print
+  254  dpkg -L arduino-mk
+  255  man dpkg
+  256  apt-get install  arduino-mk
+  257  sudo apt-get install  arduino-mk
+  258  ll
+  259  find . -name arduino.* -print
+  260  find / -name arduino.* -print
+  261  sudo find / -name arduino.* -print | grep arduino.h
+  262  sudo find / -name arduino.* -print | grep arduino.mk
+  263  sudo find / -name arduino.* -print | grep arduino_mk
+  264  sudo find / -name arduino.* -print | egrep arduino*mk
+  265  sudo find / -name arduino_mk -print
+  266  sudo find / -name arduino-mk -print
+  267  cd /usr/share/doc/arduino-mk
+  268  pwd
+  269  ll
+  270  cd examples/
+  271  ll
+  272  cat MakefileExample/Makefile-example.mk 
+  273  pwd
+  274  cd MakefileExample/
+  275  ll
+  276  pwd
+  277  cd ..
+  278  ll
+  279  cd
+  280  ll
+  281  cd hardware/
+  282  ll
+  283  ll RaspberryPi/
+  284  cd ..
+  285  ll
+  286  ls -l
+  287  ll sketchbook/
+  288  ll sketchbook/libraries/
+  289  cat  sketchbook/libraries/readme.txt 
+  290  mkdir projects
+  291  cd projects
+  292  ll /usr/share/arduino/Arduino.mk 
+  293  vim /usr/share/arduino/Arduino.mk
+  294  dpkg -L arduino-mk
+  295  cd 
+  296  cd sketchbook/
+  297  ll
+  298  cp /usr/share/arduino/Arduino.mk .
+  299  mv Arduino.mk Makefile
+  300  pinout
+  301  cat /proc/cpuinfo 
+  302  cat /proc/device-tree/model 
+  303  cat /dev/ttyAMA0 
+  304  ll /dev/ttyAMA0
+  305  lsrt /dev
+  306  lsrt /dev/
+  307  alias lsrt
+  308  ll -rt /dev | tail -10
+  309  history | grep dpkg
+  310  pinout
+  311  avrdude -h
+  312  man avrdude
+  313  avrdude infor
+  314  avrdude info
+  315  avrdude --info
+  316  shutdown -h
+  317  shutdown now
+  318  vim ~/wpa_supplicant.conf
+  319  if
+  320  ifconfig
+  321  history | more
+  322  sudo vim /etc/network/interfaces.d/eth0
+  323  ifconfig
+  324  sudo vim /etc/network/interfaces.d/eth0
+  325  history | more
+  326  sudo ifdown eth0
+  327  man ifdown
+  328  sudo ifup eth0
+  329  sudo vim /etc/network/interfaces.d/eth0
+  330  ifconfig
+  331  sudo vim /etc/network/interfaces
+  332  ping 10.102.48.1
+  333  ifconfig -a
+  334  ping cisco.com
+  335  history  | tail -22
+  336  history  | tail -44
+  337  pwd
+  338  ll
+  339  history | grep wpa+_suppli
+  340  history | grep wpa_suppli
+  341  vim wpa_8021x.sh
+  342  chmod +x wpa_8021x.sh 
+  343  ll
+  344  ping yahoo.com
+  345  ping cisco.com
+  346  ping google.com
+  347  vim /etc/network/interfaces.d/eth0 
+  348  reboot now
+  349  sudo reboot now
+  350  ifconfig
+  351  ls -l
+  352  ./wpa_8021x.sh 
+  353  ifconfig
+  354  ping yahoo.com
+  355  vim /etc/dhcpd.conf
+  356  vim /etc/dhcpcd.conf 
+  357  ll
+  358  cat wpa_8021x.sh 
+  359  cat wpa_supplicant.conf 
+  360  vim /etc/dhcpcd.conf 
+  361  cat /etc/network/interfaces
+  362  sudo vim /etc/network/interfaces.d/eth0 
+  363  sudo reboot now
+  364  ll
+  365  cat wpa_8021x.sh 
+  366  ifconfig
+  367  ls 
+  368  ./wpa_8021x.sh 
+  369  ifconfig
+  370  ping 64.101.152.1
+  371  ping google.com
+  372  ping yahoo.com
+  373  nslookup
+  374  sudo vim /etc/network/interfaces.d/eth0 
+  375  cat /etc/network/interfaces.d/eth0
+  376  ls -l /etc/wpa_supplicant/wpa_supplicant.conf 
+  377  cat /etc/wpa_supplicant/wpa_supplicant.conf
+  378  sudo vim /etc/network/interfaces.d/eth0 
+  379  sudo reboot now
+  380  ifconfig
+  381  ping 64.101.152.1
+  382  ls
+  383  ./wpa_8021x.sh 
+  384  ping 64.101.152.1
+  385  sudo vim /etc/network/interfaces.d/eth0 
+  386  reboot now
+  387  sudo reboot now
+  388  ifconfig
+  389  ping 64.101.152.1
+  390  ./wpa_8021x.sh 
+  391  ping 64.101.152.1
+  392  ping google.com
+  393  ping yahoo.com
+  394  ping google.com
+  395  ps aux | grep pig
+  396  ll
+  397  mdkir -p wbench/pigi2c
+  398  mkdir -p wbench/pigi2c
+  399  cd wbench/pigi2c
+  400  ll
+  401  vim i2c.c
+  402  sudo shutdown now
+  403  ifconfig
+  404  ping cisco.com
+  405  ls
+  406  ./wpa_8021x.sh 
+  407  ping cisco.com
+  408  ping google.com
+  409  cd wbench/
+  410  cd spitest
+  411  ll
+  412  cd ..
+  413  ll
+  414  cd spitest/
+  415  ls -la
+  416  cd ..
+  417  ls
+  418  find . -name spitest.cpp -pring
+  419  find . -name spitest.cpp -print
+  420  ll ~
+  421  mv ~/Desktop/spitest.cpp spitest/
+  422  cd spitest/
+  423  ll
+  424  g++ spitest.cpp -lwiringPi
+  425  gpio load spi
+  426  sudo raspi-config 
+  427  gpio load spi
+  428  g++ spitest.cpp -lwiringPi -o spitest
+  429  ll
+  430  sudo gpio load spi
+  431  sudo raspi-config 
+  432  sudo reboot now
+  433  gpio load spi
+  434  raspi-config
+  435  sudo raspi-config
+  436  gpio load spi
+  437  ./wpa_8021x.sh 
+  438  gpio -v
+  439  cat /boot/config.txt
+  440  vim /boot/config.txt
+  441  ll
+  442  cd wbench/
+  443  ll
+  444  cd spitest
+  445  ll
+  446  ./spitest
+  447  shutdown now
+  448  alias
+  449  cpu_temp 
+  450  echo $!
+  451  cpu_temp 
+  452  echo $0
+  453  cpu_temp 
+  454  echo $1
+  455  cpu
+  456  echo $cpu
+  457  python3 --version
+  458  pip3 install salt
+  459  sudo apt-get install python3-pip
+  460  python3
+  461  pi3 install rpi.gpio
+  462  pip3 install rpi.gpio
+  463  python3
+  464  sublime
+  465  python3
+  466  pwd
+  467  ll
+  468  llrt
+  469  ls -lrt
+  470  cd udemy
+  471  mkdir udemy
+  472  cd udemy
+  473  git setup 
+  474  git config --global user.name="TK Sammy"
+  475  git config --global user.name "TK Sammy"
+  476  git config --global user.email "thinakar@gmail.com"
+  477  git config --global user.email thinakar@gmail.com
+  478  git config --global user.name "TK Sammy"
+  479  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+  480  ll
+  481  cd Adafruit_Python_DHT/
+  482  ll
+  483  cat setup.py 
+  484  sudo python3 setup.py install
+  485  python3
+  486  pwd
+  487  ll
+  488  cd examples
+  489  ll
+  490  pef
+  491  pwd
+  492  ll
+  493  python3 AdafruitDHT.py 
+  494  python3 AdafruitDHT.py 11 17
+  495  ifconfig
+  496  ping yahoo.com
+  497  alais
+  498  alias
+  499  cd bin
+  500  ll
+  501  cat cputemp 
+  502  cputemp
+  503  cd /etc/network/
+  504  ll
+  505  ll -rt
+  506  cd interfaces.d/
+  507  ll
+  508  cat eth0 
+  509  vim eth0
+  510  cat ~/wpa_supplicant.conf 
+  511  mkdir ~/networking
+  512  mv ~/wpa_supplicant.conf ~/networking/
+  513  cat ~/wpa_8021x.sh 
+  514  pwd
+  515  pushd .
+  516  dirs -v
+  517  cd 
+  518  mv wpa_8021x.sh networking/
+  519  vim .bashrc
+  520  cat networking/
+  521  cd networking/
+  522  ll
+  523  cat wpa_supplicant.conf 
+  524  pushd .
+  525  dirs -v
+  526  cd ~2
+  527  ll
+  528  cat eth0 
+  529  ifconfig
+  530  vim eth0 
+  531  sudo vim eth0 
+  532  cd
+  533  cd networking/
+  534  ll
+  535  cp wpa_supplicant.conf wpa_supplicant_crossover.conf
+  536  vim wpa_supplicant_crossover.conf 
+  537  pwd
+  538  dirs -v
+  539  cd ~3
+  540  cd ~2
+  541  ll
+  542  cat eth0
+  543  history  |tail -22
+  544  cd
+  545  cd networking/
+  546  ll
+  547  cat wpa_supplicant
+  548  cat wpa_supplicant.conf 
+  549  cat wpa_supplicant_crossover.conf 
+  550  vim eth0-static
+  551  cat wpa_supplicant_crossover.conf 
+  552  vim wpa_supplicant_crossover.conf
+  553  ll
+  554  cat /etc/network/interfaces.d/eth0 
+  555  vim eth0-dhcp
+  556  vim eth0-dhcp-cisco
+  557  man wpa_conf
+  558  locate wpa_conf
+  559  ll
+  560  cat wpa_supplicant.conf 
+  561  cat wpa_8021x.sh 
+  562  man wpa_supplicant
+  563  ll
+  564  cat wpa_supplicant_crossover.conf 
+  565  mv wpa_supplicant_crossover.conf eth0-at-etc-networking-interfaces.d
+  566  ll
+  567  cat ~/.bash_logout 
+  568  vim  ~/.bash_logout 
+  569  pwd
+  570  cat /etc/network/interfaces.d/eth0 
+  571  cat eth0-static 
+  572  systemctl status network
+  573  systemctl status networking
+  574  cat /etc/network/interfaces.d/eth0 
+  575  cat ~/.bash_logout 
+  576  cp ~/networking/eth0-static /etc/network/interfaces.d/eth0
+  577  sudo cp ~/networking/eth0-static /etc/network/interfaces.d/eth0
+  578  cat /etc/network/interfaces.d/eth0 
+  579  vim  ~/.bash_logout 
+  580  ll
+  581  systemctl restart networking
+  582  sudo systemctl restart networking
+  583  sudo systemctl status networking
+  584  ifconfig
+  585  sudo systemctl status networking
+  586  sudo systemctl restart networking
+  587  ifconfig
+  588  sudo systemctl status networking
+  589  shutdown -r now
+  590  ifconfig
+  591  cat /etc/network/interfaces.d/eth0 
+  592  vim /etc/network/interfaces
+  593  cat /etc/wpa_supplicant/wpa_supplicant.conf
+  594  cat /etc/wpa_supplicant/ifupdown.sh 
+  595  vim /etc/wpa_supplicant/ifupdown.sh 
+  596  cat /etc/dhcpd.conf
+  597  cat /etc/dhcpcd.conf 
+  598  vim /etc/dhcpcd.conf
+  599  sudo cp -p /etc/dhcpcd.conf /etc/dhcpcd-conf-original
+  600  vim /etc/dhcpcd.conf 
+  601  cd /etc/network/interfaces.d/
+  602  ll
+  603  ll ..
+  604  ll
+  605  cat eth0 
+  606  vim ~/networking/eth0-static 
+  607  vim eth0 
+  608  sudo vim eth0 
+  609  sudo systemctl restart network
+  610  sudo systemctl restart networking
+  611  ifconfig
+  612  systemctl status networking
+  613  systemctl reboot
+  614  pwd
+  615  ll
+  616  exit
+  617  cd /etc/network/interfaces.d/
+  618  ll
+  619  cat eth0 
+  620  ifconfig
+  621  ping 192.168.0.1
+  622  ping yahoo.com
+  623  systemctl list-units -t service
+  624  systemctl list-units -t service | grep vnc
+  625  systemctl list-units |  grep vnc
+  626  systemctl status vncd
+  627  systemctl status vnc
+  628  ping yahoo.com
+  629  route -print
+  630  route 
+  631  route list
+  632  route -n
+  633  sudo sytemctl shutdown
+  634  sudo systemctl shutdown
+  635  sudo shutdown -h now
+  636  ifconfig
+  637  history|tail
+  638  history|tail -33
+  639  history|tail -55
+  640  cd networking/
+  641  ll
+  642  cat wpa_8021x.sh 
+  643  sudo wpa_supplicant -i eth0 -c wpa_supplicant.conf -B
+  644  vim /etc/network/interfaces.d/
+  645  cd /etc/network/interfaces.d/
+  646  ll
+  647  vim eth0 
+  648  cat ~/networking/eth0-at-etc-networking-interfaces.d 
+  649  cat ~/networking/eth0-dhcp
+  650  cat ~/networking/eth0-dhcp-cisco 
+  651  vim eth0 wlan0
+  652  sudo vim wlan0
+  653  cat auto eth0
+  654  iface eth0 inet dhcp
+  655  wpa_conf /home/pi/networking/wpa_supplicant.conf
+  656  cat auto eth0
+  657  iface eth0 inet dhcp
+  658  cat /home/pi/networking/wpa_supplicant.conf
+  659  sudo systemctl reboot
+  660  ifconfig
+  661  vim /etc/network/interfaces
+  662  sudo vim /etc/network/interfaces
+  663  cd  /etc/network/interfaces.d/
+  664  ll
+  665  sudo rm wlan0 
+  666  sudo vim /etc/network/interfaces
+  667  cat allow-hotplug wlan0
+  668  iface wlan0 inet dhcp
+  669  wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+  670  sudo vim /etc/network/interfaces
+  671  cat allow-hotplug wlan0
+  672  iface wlan0 inet dhcp
+  673  wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+  674  sudo vim /etc/network/interfaces
+  675  cat /etc/wpa_supplicant/wpa_supplicant.conf
+  676  cat ~/networking/wpa_supplicant.conf 
+  677  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  678  sudo systemctl reboot
+  679  ifconfig
+  680  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  681  cat ~/networking/wpa_supplicant.conf 
+  682  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  683  cat ~/networking/wpa_supplicant.conf 
+  684  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  685  sudo vim /etc/network/interfaces
+  686  cd /etc/network/interfaces.d/
+  687  ll
+  688  cat eth0
+  689  ifconfig
+  690  systemctl reboot 
+  691  ifconfig
+  692  sudo vim /etc/network/interfaces
+  693  cat /etc/network/interfaces.d/eth0 
+  694  vim wlan0
+  695  cat ../interfaces
+  696  ll ..
+  697  pwd
+  698  cd  /etc/network/interfaces.d/
+  699  ll
+  700  cat ../interfaces
+  701  vim wlan0
+  702  sudo vim wlan0
+  703  ll
+  704  more *
+  705  sudo vim wlan0 
+  706  more *
+  707  systemctl reboot
+  708  cat /etc/wpa_supplicant/wpa_supplicant.conf 
+  709  sudo  shutdown -h now
+  710  cd  /etc/network/interfaces.d/
+  711  ll
+  712  ifconfig
+  713  sudo raspi-config 
+  714  cd  /etc/network/interfaces.d/
+  715  ll
+  716  cat wlan0
+  717  cat /etc/wpa_supplicant/wpa_supplicant.conf
+  718  howdy
+  719  hostname
+  720  ifconfig
+  721  cat /etc/wpa_supplicant/wpa_supplicant.conf
+  722  cat /etc/network/interfaces.d/eth0 
+  723  cat /etc/network/interfaces.d/wlan0 
+  724  sudo mv /etc/network/interfaces.d/wlan0 ~
+  725  cat /etc/network/interfaces.d/wlan0 
+  726  sudo reboot now
+  727  ifconfig
+  728  sudo apt-get update
+  729  ifconfig
+  730  route -n
+  731  route 
+  732  vim /etc/network/interfaces.d/et
+  733  cat /etc/network/interfaces.d/wlan0 
+  734  history | tail
+  735  more  networking/eth0-*
+  736  cat ~/.bash_logout 
+  737  vim ~/.bash_logout
+  738  ll
+  739  cd
+  740  cd networking/
+  741  ll
+  742  vim eth0-dhcp
+  743  sudo apt-get update
+  744  ifconfig
+  745  vim /etc/dhcpcd.conf 
+  746  systemctl restart networking
+  747  ifconfig
+  748  sudo apt-get install python3-pip
+  749  sudo apt-get update
+  750  sudo reboot 
+  751  ll
+  752  vim /etc/dhcpcd.conf 
+  753  vim /etc/dhcpcd-conf-original 
+  754  history
+  755  cat /etc/network/interfaces.d/wlan0 
+  756  cat /etc/wpa_supplicant/wpa_supplicant.conf 
+  757  vim /etc/wpa_supplicant/wpa_supplicant.conf
+  758  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
+  759  sudo reboot 
+  760  ifconfig
+  761  sudo apt-get update
+  762  route
+  763  sudo shutdown
+  764  sudo shutdown -h now
+  765  ifdown --help
+  766  ifconfig
+  767  ifdown eth0
+  768  sudo ifdown eth0
+  769  sudo ifdown --force eth0
+  770  ifconfig
+  771  sudo apt-get update
+  772  route -n
+  773  rote print
+  774  echo $http_proxy 
+  775  vim /etc/profile.d/proxy.sh 
+  776  sudo vim /etc/profile.d/proxy.sh 
+  777  exit
+  778  sudo apt-get update
+  779  echo $http_proxy 
+  780  vim ~/.bashrc
+  781  exit
+  782  echo $http_proxy 
+  783  shutdown -r now
+  784  sudo nmap 192.168.254.0/24
+  785  cputemp
+  786  sudo su 
+  787  sudo apt-get update
+  788  env
+  789  env | grep proxy
+  790  vim /etc/apt/apt.conf.d/01proxy 
+  791  sudo vim /etc/apt/apt.conf.d/01proxy 
+  792  sudo apt-get update
+  793  sudo apt-get install libncurses5-dev libncursesw5-dev libreadline6-dev
+  794  sudo apt-get install libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libsqlite3-dev libgdm-dev tk8.5-dev
+  795  sudo apt-get install python-dev
+  796  cputemp 
+  797  sudo apt-get install libssl-dev openssl
+  798  cd
+  799  mkdir python-source
+  800  cd python-source
+  801  ll
+  802  python -V
+  803  cd
+  804  ll
+  805  cd
+  806  ll
+  807  l
+  808  ls -l
+  809  pwd
+  810  my python-source udemy/
+  811  mv python-source udemy/
+  812  ll
+  813  alias ll
+  814  ll downloads/
+  815  ll Downloads/
+  816  cat wlan0 
+  817  cd udemy/
+  818  ll
+  819  wget https://github.com/futureshocked/RaspberryPiFullStack_Raspbian.git
+  820  ll
+  821  rm RaspberryPiFullStack_Raspbian.git 
+  822  git clone https://github.com/futureshocked/RaspberryPiFullStack_Raspbian.git
+  823  ll
+  824  cd RaspberryPiFullStack_Raspbian
+  825  ll
+  826  dirs -v
+  827  cd CommandLineInstructions/
+  828  pushd .
+  829  cdd
+  830  cd python-source/
+  831  get https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz
+  832  wget https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz
+  833  ll
+  834  tar xzf Python-3.6.4.tgz 
+  835  ll
+  836  cd Python-3.6.4/
+  837  cd ..
+  838  ll
+  839  wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+  840  ll
+  841  tar xf Python-3.7.4.tgz 
+  842  ll
+  843  cd Python-3.7.4/
+  844  ll
+  845  python3 --version
+  846  ll
+  847  ./configure --prefix=/usr/local/opt/python-3.7.4
+  848  make
+  849  which python3
+  850  which python3
+  851  ll /usr/bin/python3
+  852  ll /usr/bin/python3.7
+  853  ll /usr/bin/python*
+  854  pwd
+  855  python3 -V
+  856  sudo make install
+  857  /usr/local/opt/python-3.7.4/bin/python3.7 --version
+  858  python3 --version
+  859  cd ..
+  860  ll
+  861  cd RaspberryPiFullStack_Raspbian/
+  862  ll
+  863  pwd
+  864  cd CommandLineInstructions/
+  865  ll
+  866  cat 430_setup_nginx_and_flask_notes.txt 
+  867  ifconfig
+  868  raspi-config
+  869  sudo raspi-config
+  870  sudo iptables -L -v
+  871  systemctl status iptables
+  872  /sbin/ifconfig wlan0 | grep -q "inet addr:" 
+  873  ping yahoo.com
+  874  /sbin/ifconfig wlan0 
+  875  /sbin/ifconfig wlan0 | grep -q "inet" 
+  876  /sbin/ifconfig wlan0 | grep  "inet" 
+  877  systemctl status nginx
+  878  cputemp 
+  879  ifconfig
+  880  history 
+  881  pwd
+  882  ll
+  883  ls -lrt
+  884  cd udemy/
+  885  ll
+  886  ls -lrt
+  887  cd python-source/
+  888  ll
+  889  cd ..
+  890  cd
+  891  ll
+  892  ls -lrt
+  893  cd wbench/
+  894  ll
+  895  cd /var/www
+  896  cd lab_app/
+  897  ll
+  898  . bin/activate
+  899  python hello.py 
+  900  pip install uwsgi
+  901  ll
+  902  sudo pip install uwsgi
+  903  su - root
+  904  sudo su -
+  905  sudo su -
+  906  su -
+  907  sudo passwd root
+  908  cd /var/www/lab_app/
+  909  ll
+  910  mv css static/
+  911  sudo mv css static/
+  912  sudo mv images/ static/
+  913  sudo mv ~/Downloads/Skeleton-2.0.4/images/favicon.png static/images/
+  914  ll
+  915  pwd
+  916  cd static/
+  917  vim a_static_file.html 
+  918  sudo su 
+  919  ping cisco.com
+  920  ifconfig
+  921  sudo passwd root
+  922  vim /etc/ssh/ssh_config 
+  923  vim /etc/ssh/sshd_config 
+  924  sudo vim /etc/ssh/sshd_config 
+  925  sudo systemctl restart sshd
+  926  ifconfig
+  927  systemctl status emperor.uwsgi 
+  928  sudo systemctl restart emperor.uwsgi 
+  929  pwd
+  930  cd /var/www
+  931  cd lab_app/
+  932  ll
+  933  cat hello.py 
+  934  . bin/activate
+  935  python hello.py 
+  936  sudo systemctl restart emperor.uwsgi 
+  937  kk
+  938  ll
+  939  tail -f lab_app_uwsgi.log 
+  940  sudo tail -f lab_app_uwsgi.log 
+  941  sudo vim lab_app_uwsgi.log
+  942  pip install rpi.gpio
+  943  ifconfig eth0
+  944  export http_proxy=http://64.101.129.239
+  945  export https_proxy=https://64.101.129.239
+  946  pip install rpi.gpio
+  947  exit
+  948  sudo su -
+  949  ping 64.101.129.239
+  950  zcat -z 64.101.129.239 8888
+  951  zcat  64.101.129.239 8888
+  952  history | more
+  953  vim /etc/dhcpcd.conf
+  954  sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
+  955  sudo reboot now
+  956  ifconfi
+  957  ifconfig 
+  958  vim /etc/wpa_supplicant/wpa_supplicant.conf 
+  959  ping yahoo.com
+  960  ping pundai.cim
+  961  ping pundai.com
+  962  ping eportal.cisco.com
+  963  vim /etc/dhcpcd.conf 
+  964  cd /etc/network/interfaces.d/
+  965  ll
+  966  vim eth0 
+  967  vim /home/pi/networking/wpa_supplicant.conf 
+  968  vim eth0 
+  969  sudo vim eth0 
+  970  reboot now
+  971  sudo reboot now
+  972  history | grep AdafruitDHP.py
+  973  history | grep AdafruitDHP
+  974  cputemp
+  975  alias cputemp
+  976  which cputemp
+  977  cd
+  978  vim bin/cputemp
+  979  cputemp
+  980  pwd
+  981  cd udemy/
+  982  ll
+  983  cd Adafruit_Python_DHT/
+  984  ll
+  985  ce examples/
+  986  ll
+  987  cd examples/
+  988  ll
+  989  vim AdafruitDHT.py 
+  990  ifconfig
+  991  ifconfig
+  992  ping cisco.com
+  993  ll
+  994  cd networking/
+  995  LL
+  996  ll
+  997  cat wpa_8021x.sh 
+  998  sudo wpa_supplicant -D wired -i eth0 -c wpa_supplicant.conf -B
+  999  ping cisco.com
+ 1000  sudo systemctl status crond
+ 1001  sudo systemctl status cron
+ 1002  sudo /etc/cron.daily/logrotate 
+ 1003  cat /etc/cron.daily/logrotate
+ 1004  sudo apt-get install telnet
+ 1005  sudo su 
+ 1006  sudo su -
+ 1007  +
+ 1008  QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ``
+ 1009  ifconfig
+ 1010  cd networking
+ 1011  ls -l
+ 1012  cat wpa_8021x.sh 
+ 1013  cat /etc/network/interfaces.d/eth0 
+ 1014  cat ~/.bash_logout 
+ 1015  cat ~/networking/eth0-dhcp
+ 1016  cat wpa_8021x.sh 
+ 1017  sudo vim /etc/init.d/console-setup.sh 
+ 1018  sudo vim /etc/systemd/system/emperor.uwsgi.service 
+ 1019  ll
+ 1020  cat wpa_8021x.sh 
+ 1021  vim start-wpa-supplicant 
+ 1022  sudo vim start-wpa-supplicant 
+ 1023  sudo cp start-wpa-supplicant /etc/systemd/system/office.wired.service
+ 1024  ll /etc/systemd/system/office.wired.service
+ 1025  ll /etc/systemd/system/*.service
+ 1026  sudo systemctl start office.wired.service 
+ 1027  sudo systemctl status office.wired.service
+ 1028  sudo vim  /etc/systemd/system/office.wired.service
+ 1029  sudo systemctl start office.wired.service 
+ 1030  sudo systemctl status office.wired.service
+ 1031  sudo vim  /etc/systemd/system/office.wired.service
+ 1032  pwd
+ 1033  ll
+ 1034  vim wpa_8021x.sh 
+ 1035  ll
+ 1036  cp -p wpa_8021x.sh start-wpa.sh
+ 1037  more  start-wpa.sh start-wpa-supplicant 
+ 1038  mv  start-wpa-supplicant start-wpa.service
+ 1039  ll
+ 1040  cat start-wpa.sh
+ 1041  sudo vim  /etc/systemd/system/office.wired.service
+ 1042  vim start-wpa.sh
+ 1043  sudo systemctl sta office.wired.service
+ 1044  sudo systemctl status office.wired.service
+ 1045  vim start-wpa.sh
+ 1046  ./start-wpa.sh 
+ 1047  vim start-wpa.sh
+ 1048  ./start-wpa.sh 
+ 1049  cat /home/tperiasa/networking/wpa_supplicant.conf
+ 1050  vim start-wpa.sh
+ 1051  cat wpa_8021x.sh 
+ 1052  vim wpa_8021x.sh
+ 1053  sudo vim /etc/systemd/system/office.wired.service 
+ 1054  sudo systemctl start office.wired.service
+ 1055  journalctl -xe
+ 1056  ll
+ 1057  start-wpa.sh 
+ 1058  man sleep
+ 1059  vim wpa_8021x.sh
+ 1060  vim start-wpa.sh
+ 1061  vim wpa_8021x.sh
+ 1062  ifconfig
+ 1063  ip
+ 1064  sudo systemctl enable office.wired.service 
+ 1065  ifconfig
+ 1066  ping yahoo.com
+ 1067  sudo apt-get located 
+ 1068  sudo apt-get install located 
+ 1069  sudo apt-get install telnet
+ 1070  telnet localhost 80
+ 1071  ifconfig
+ 1072  ls -l /dev/spidev0.*
+ 1073  sudo vim /boot/config.txt 
+ 1074  sudo apt-get install dos2unix
+ 1075  ll
+ 1076  man dos2unix 
+ 1077  ll /boot/config.txt 
+ 1078  dos2unix -n /boot/config.txt ~/config.txt
+ 1079  pwd
+ 1080  ll
+ 1081  diff config.txt /boot/config.txt 
+ 1082  ll config.txt /boot/config.txt
+ 1083  vim config.txt
+ 1084  sudo dos2unix /boot/config.txt 
+ 1085  ll config.txt /boot/config.txt
+ 1086  sudo vim /boot/config.txt 
+ 1087  cputemp
+ 1088  cd /var/www/lab_app/
+ 1089  ll
+ 1090  sqlite3 sample.sql
+ 1091  ll
+ 1092  sudo mv sample.sql lab_app.db
+ 1093  sudo sqlite3 lab_app.db 
+ 1094  ll
+ 1095  vim /etc/wpa_supplicant/wpa_supplicant.con
+ 1096  vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1097  sudo raspi-config
+ 1098  vim /etc/wpa_supplicant/wpa_supplicant.conf 
+ 1099  ll
+ 1100  ifconfig
+ 1101  date
+ 1102  sudo raspi-config
+ 1103  date
+ 1104  dae
+ 1105  datre
+ 1106  date
+ 1107  sudo su -
+ 1108  crontab -e
+ 1109  sudo su -
+ 1110  crontab -e
+ 1111  sudo systemctl status office.wired.service 
+ 1112  sudo siu -
+ 1113  sudo su -
+ 1114  podasunni
+ 1115  clear
+ 1116  crontab -e
+ 1117  pwd
+ 1118  ll
+ 1119  cd wbench
+ 1120  ll
+ 1121  cd ..
+ 1122  ll
+ 1123  cd /var/www
+ 1124  ll
+ 1125  ll -a
+ 1126  cd labapp
+ 1127  cd lab_app/
+ 1128  ll
+ 1129  pwd
+ 1130  ll
+ 1131  cd ..
+ 1132  ll
+ 1133  ll html
+ 1134  ll lap_app
+ 1135  ll
+ 1136  ll lab_app/
+ 1137  ll lab_app/lib
+ 1138  ll lab_app/lib/python3.7/
+ 1139  ll lab_app/__pycache__/
+ 1140  ll lab_app/static/
+ 1141  vim .gitignore
+ 1142  sudo vim .gitignore
+ 1143  ll lab_app/bin/
+ 1144  ll lab_app/include/
+ 1145  sudo vim .gitignore 
+ 1146  git init .
+ 1147  sudo git init .
+ 1148  ll
+ 1149  git config --global email.id=thinakar@gmail.com
+ 1150  history | more
+ 1151  history >> .history_cmds
+ 1152  sudo  history >> .history_cmds
+ 1153  history >> ~/.history_cmds

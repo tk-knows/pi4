@@ -1,0 +1,17 @@
+*.pyc
+lab_app/bin
+lab_app/lib/
+lab_app/__pycache__/
+lab_app/include/
+build
+*.egg-info
+setuptools-*
+*.so
+dist
+
+
+
+
+
+
+
