@@ -1,0 +1,418 @@
+    1  cd /var/
+    2  ll
+    3  ll
+    4  ls -la
+    5  mkdir www
+    6  ls -la
+    7  cd www
+    8  mdkir lab_app
+    9  mkdir lab_app
+   10  cd lab_app/
+   11  ls -la
+   12  pwd
+   13  /usr/local/opt/python-3.7.4/bin/python3.7 -m venv . 
+   14  ls -la
+   15  cat pyenv.cfg
+   16  cat pyvenv.cfg 
+   17  ll bin
+   18  ls -l bin
+   19  ll include/
+   20  ls -l include/
+   21  ls -la lib
+   22  ls -la lib/python3.7/
+   23  ls -la lib/python3.7/site-packages/
+   24  pushd .
+   25  ls -la
+   26  . bin/activate
+   27  python -V
+   28  apt-get install nginx
+   29  apt-get update
+   30  systemctl status firewalld
+   31  systemctl status firewall
+   32  systemctl list-units -t service
+   33  systemctl list-units -t service | grep fire
+   34  systemctl list-units -t service | grep iptables
+   35  pip install flask
+   36  pip install --upgrade pip
+   37  vim hello.py
+   38  pwd
+   39  ll
+   40  ls -la
+   41  python hello.py 
+   42  vim hello.py
+   43  python hello.py 
+   44  cd /var/www/lab_app/
+   45  ll
+   46  . bin/activate
+   47  pip install uwsgi
+   48  ll bin
+   49  ls -l bn
+   50  ls -l bin/
+   51  ifconfig
+   52  cd /etc/nginx/sites-enabled/
+   53  ll
+   54  ls -la
+   55  vim default 
+   56  rm default 
+   57  ls -la
+   58  vim /etc/nginx/sites-available/default
+   59  cd
+   60  cd /var/www/lab_app/
+   61  vim lab_app_nginx.conf
+   62  ll
+   63  ls -la
+   64  ln -s /var/www/lab_app/lab_app_nginx.conf /etc/nginx/conf.d/
+   65  ls -la /etc/nginx/conf.d/
+   66  systemctl start nginx
+   67  systemctl restart nginx
+   68  systemctl status nginx
+   69  vim lab_app_uwsgi.ini
+   70  vim lab_app_uwsgi.ini
+   71  mkdir /var/log/uwsgi
+   72  cd /var/log/uwsgi
+   73  pwd
+   74  ll
+   75  dirs -v
+   76  pushd .
+   77  cd /var/www/lab_app/
+   78  pushd .
+   79  bin/uwsgi --ini /var/www/lab_app/lab_app_uwsgi.ini
+   80  bin/uwsgi --ini /var/www/lab_app/lab_app_uwsgi.ini
+   81  cd /var/www/lab_app/
+   82  ll
+   83  ls -la
+   84  vim hello.py
+   85  vim hello.py 
+   86  vim /etc/systemd/system/emperor.uwsgi.service
+   87  vim /etc/systemd/system/emperor.uwsgi.service
+   88  systemctl start emperor.uwsgi.service
+   89  systemctl status emperor.uwsgi.service
+   90  ls -l /var/log/uwsgi
+   91  systemctl isenabled emperor.uwsgi.service
+   92  systemctl enable emperor.uwsgi.service
+   93  reboot
+   94  vim a_static_file.html 
+   95  ll
+   96  ls -lat
+   97  cd css
+   98  ll
+   99  cd ..
+  100  ls -la
+  101  cd ..
+  102  ls -la
+  103  vim lab_app_uwsgi.log 
+  104  mkdir templates
+  105  apt-get install sqlite3
+  106  cd /var/www/lab_app/
+  107  sqlite3 sample.sql
+  108  ll
+  109  ls -lrt
+  110  cat sample.sql 
+  111  mkdir css images
+  112  ll
+  113  ls -la
+  114  cd css
+  115  cd ..
+  116  cd static
+  117  ll
+  118  vim a_static_file.html
+  119  pwd
+  120  ll
+  121  ls -la
+  122  mkdir static
+  123  mv a_static_file.html static/
+  124  ll
+  125  cd css
+  126  ll
+  127  dir
+  128  ls -la
+  129  cp /tmp/Skeleton-2.0.4/css/* .
+  130  ll
+  131  ls -la
+  132  su
+  133  cd /var/www/lab_app/
+  134  . bin/activate
+  135  pip install rpi.gpio
+  136  export http_proxy=http://64.101.129.239
+  137  export https_proxy=https://64.101.129.239
+  138  pip install rpi.gpio
+  139  ping 64.101.129.239
+  140  telnet localhost 8080
+  141  telnet localhost 80
+  142  pip install rpi.gpio
+  143  unset https_proxy
+  144  echo $http_proxy 
+  145  echo $https_proxy 
+  146  pip install rpi.gpio
+  147  ifconfig
+  148  echo $http_proxy 
+  149  export https_proxy=https://64.101.129.239
+  150  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+  151  export https_proxy=https://64.101.129.239:8888
+  152  export http_proxy=http://64.101.129.239:8888
+  153  pip install rpi.gpio
+  154  echo $http_proxy 
+  155  unset https_proxy
+  156  echo $httpw_proxy 
+  157  echo $https_proxy 
+  158  echo $http_proxy 
+  159  pip install rpi.gpio
+  160  echo $http_proxy 
+  161  echo $https_proxy 
+  162  export https_proxy=http://64.101.129.239:8888
+  163  export https_proxy=https://64.101.129.239:8888
+  164  pip install rpi.gpio
+  165  ifconfig
+  166  telnet
+  167  vim /etc/apt/apt.conf.d/50raspi 
+  168  vim /etc/apt/apt.conf.d/01proxy 
+  169  cd
+  170  exit
+  171  cd /var/www/lab_app/
+  172  ll
+  173  ls -la
+  174  . bin/activate
+  175  ll
+  176  pip install rpa.gpib
+  177  pip install rpa.gpio
+  178  pip install rpi.gpio
+  179  git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+  180  ll
+  181  ls -la
+  182  cd Adafruit_Python_DHT/
+  183  ll
+  184  ls -la 
+  185  python setup.py install
+  186  cd examples/
+  187  history | grep AdafruitDHP.py
+  188  vim AdafruitDHT.py 
+  189  python AdafruitDHT.py 11 17
+  190  ll /home/pi/Desktop/geany.desktop
+  191  ls -l /home/pi/Desktop/geany.desktop
+  192  cat /home/pi/Desktop/geany.desktop
+  193  Geany
+  194  /usr/share/raspi-ui-overrides/applications/geany.desktop
+  195  which geany 
+  196  geany
+  197  geany
+  198  cputemp
+  199  python AdafruitDHT.py 11 17
+  200  vim AdafruitDHT.py
+  201  python AdafruitDHT.py 11 17
+  202  cputemp
+  203  python AdafruitDHT.py 11 17
+  204  python AdafruitDHT.py 11 17
+  205  python AdafruitDHT.py 11 17
+  206  python AdafruitDHT.py 11 17
+  207  python AdafruitDHT.py 11 17
+  208  python AdafruitDHT.py 11 17
+  209  opener --help
+  210  opener geany
+  211  ll
+  212  ls -la
+  213  geany simpletest.py 
+  214  echo $DISPLAY
+  215  cd ..
+  216  cd ..
+  217  ll
+  218  ls -l
+  219  vim lab_app.py
+  220  vim hello.py
+  221  ll
+  222  ls -la
+  223  vim lab_app
+  224  vim lab_app.py 
+  225  vim lab_app.py 
+  226  cp /home/pi/udemy/RaspberryPiFullStack_Raspbian/templates/lab_temp.html templates/
+  227  cp /home/pi/udemy/RaspberryPiFullStack_Raspbian/templates/no_sensor.html templates/
+  228  ls -la templates/
+  229  vim lab_app_uwsgi.ini
+  230  cp /home/pi/udemy/RaspberryPiFullStack_Raspbian/lab_temp_v1.html templates/
+  231  cp /home/pi/udemy/RaspberryPiFullStack_Raspbian/no_sensor_v1.html templates/
+  232  cd templates/
+  233  ll
+  234  ls -la
+  235  mv lab_temp.html lab_temp_final.html
+  236  mv no_sensor.html no_sensor_final.html
+  237  mv no_sensor_v1.html no_sensor.html
+  238  mv lab_temp_v1.html lab_temp.html
+  239  vim lab_temp
+  240  vim lab_temp.html 
+  241  vim no_sensor.html 
+  242  vim lab_temp.html 
+  243  systemctl restart emperor.uwsgi.service 
+  244  systemctl status emperor.uwsgi.service 
+  245  vim /var/www/lab_app/lab_app_uwsgi.ini
+  246  cd ..
+  247  ll
+  248  ls -l
+  249  vim lab_app_uwsgi.log
+  250  vim lab_app.py 
+  251  systemctl restart emperor.uwsgi.service 
+  252  tail -f  lab_app_uwsgi.log
+  253  vim lab_app.py 
+  254  tail -f  lab_app_uwsgi.log
+  255  vim lab_app.py 
+  256  systemctl restart emperor.uwsgi.service 
+  257  vim templates/lab_temp.html 
+  258   vim /etc/modules
+  259  vim /etc/modprobe.d/raspi-blacklist.conf 
+  260  cd /var/www
+  261  cd lab_app/
+  262  . bin/activate
+  263  python env_log.py 
+  264  sqlite3 lab_app.db 
+  265  crontab -e
+  266  crontab -e
+  267  ll
+  268  sqlite3 lab_app.db 
+  269  crontab -e
+  270  crontab -e
+  271  systemctl restart emperor.uwsgi.service 
+  272  systemctl status emperor.uwsgi.service 
+  273  ll
+  274  ls m-la
+  275  ls -l
+  276  tail -f *.log
+  277  tail -f *.log
+  278  systemctl restart emperor.uwsgi.service 
+  279  tail -f *.log
+  280  df -h
+  281  cputemp
+  282  ~rp/bin/cputemp
+  283  ~pi/bin/cputemp
+  284  sqlite3 lab_app.db 
+  285  systemctl restart emperor.uwsgi.service 
+  286  systemctl statsu emperor.uwsgi.service 
+  287  systemctl status emperor.uwsgi.service 
+  288  tail -f *.log
+  289  tail -f *.log
+  290  vim *.log
+  291  systemctl restart emperor.uwsgi.service 
+  292  systemctl status emperor.uwsgi.service
+  293  tail -f *.log
+  294  systemctl restart emperor.uwsgi.service 
+  295  tail -f *.log
+  296  systemctl restart emperor.uwsgi.service 
+  297  tail -f *.log
+  298  python lab_app.py 
+  299  python lab_app.py 
+  300  python lab_app.py 
+  301  python lab_app.py 
+  302  python lab_app.py 
+  303  python lab_app.py 
+  304  python lab_app.py 
+  305  python lab_app.py 
+  306  python lab_app.py 
+  307  sqlite3 lab_app.db 
+  308  systemctl restart emperor.uwsgi.service 
+  309  systemctl restart emperor.uwsgi.service 
+  310  systemctl status emperor.uwsgi.service 
+  311  systemctl status emperor.uwsgi.service 
+  312  tail -f *.log
+  313  systemctl status emperor.uwsgi.service 
+  314  tail -f *.log
+  315  vim lab_app.py
+  316  systemctl restart emperor.uwsgi.service 
+  317  tail -f *.log
+  318  systemctl restart emperor.uwsgi.service 
+  319  tail -f *.log
+  320  date
+  321  systemctl restart emperor.uwsgi.service 
+  322  tail -f *.log
+  323  systemctl restart emperor.uwsgi.service 
+  324  tail -f *.log
+  325  systemctl restart emperor.uwsgi.service 
+  326  tail -f *.log
+  327  shutdown -h now
+  328  crontab -e
+  329  cd /var/www/lab_app/
+  330  ll
+  331  ls -la
+  332  ll
+  333  ls -la
+  334  systemctl status emperor.uwsgi.service 
+  335  systemctl restart emperor.uwsgi.service 
+  336  systemctl status emperor.uwsgi.service 
+  337  crontab -e
+  338  exit
+  339  cd /var/www/lab_app/
+  340  ll
+  341  tail -f *.log
+  342  systemctl restart emperor.uwsgi.service 
+  343  tail -f *.log
+  344  systemctl restart emperor.uwsgi.service 
+  345  tail -f *.log
+  346  ll
+  347  systemctl restart emperor.uwsgi.service 
+  348  tail -f *.log
+  349  shutdown -h 
+  350  shutdown -h now
+  351  ll
+  352  ssh-keygen  -t rsa
+  353  ll
+  354  cat .ssh/id_rsa.pub 
+  355  pwd
+  356  cd /var/www
+  357  ll
+  358  git push -u origin master
+  359  git push -u origin master
+  360  git add README.md
+  361  git push -u origin master
+  362  cat .git/config
+  363  git push -u origin master
+  364  vim .gitignore
+  365  ll
+  366  git add --all
+  367  git status
+  368  git add --all
+  369  git stats
+  370  git status
+  371  git commit -am 'second commit'
+  372  git push -u origin master
+  373  git status
+  374  cat .gitignore 
+  375  ll lab_app/
+  376  ls -l lab_app/
+  377  vim .gitignore 
+  378  cat .git/config
+  379  rm -rf .git/
+  380  ll
+  381  ls -la
+  382  git init .
+  383  vim .git/config
+  384  vim .git/config
+  385  git add --all
+  386  [remote "origin"]
+  387  url = git@github.com:tkvinfolio/pi4.git
+  388  fetch = +refs/heads/*:refs/remotes/origin/*
+  389  [branch "master"]
+  390  remote = origin
+  391  cd lab_app/Adafruit_Python_DHT/
+  392  ll
+  393  ls -la
+  394  rm -rf .git
+  395  cat .gitignore 
+  396  cd ../..
+  397  ll
+  398  vim .gitignore 
+  399  vim .gitignore 
+  400  pwd
+  401  ll
+  402  ls -la
+  403  git status
+  404  git add --all
+  405  git commit -am 'first'
+  406  git push -u origin master
+  407  git status
+  408  cd lab_app/
+  409  ll
+  410  ls -la
+  411  ll Adafruit_Python_DHT/
+  412  ls -la Aa
+  413  ls -la Adafruit_Python_DHT/
+  414  ll
+  415  crontab -e
+  416  shutdown -h now
+  417  history
+  418  history >> /var/www/.root-history.txt
